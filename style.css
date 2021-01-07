@@ -14,8 +14,7 @@
     padding-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    }
-
+}
 
 .rightalign {
     float: right;
@@ -44,12 +43,8 @@ li a:hover {
 }
 
 .googlelogo {
-    margin-top: 155px;
-    margin-bottom: 40px;
-}
-
-form {
-    margin: auto;
+    margin-top: 180px;
+    margin-bottom: 20px;
 }
 
 input {
@@ -61,9 +56,85 @@ input {
     border-color: rgba(201, 202, 201, 0.973);
     border-radius: 50px;
     margin-bottom: 20px;
+    margin-left: 700px;
+}
+
+form {
+    margin: auto;
 }
 
 input:hover {
-    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
-    border-color: rgba(223,225,229,0);
+    border-color: white;
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28)
+}
+
+.micbutton {
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+    transform: translate(900%,-220%);
+    border: none;
+    background: transparent;
+    background-image: url(https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.magbutton {
+    width: 20px;
+    height: 20px;
+    display: block;
+    margin: right;
+    transform: translate(100%,-390%);
+    border: none;
+    background: transparent;
+    background-image: url(https://img.icons8.com/android/24/000000/search.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    cursor: pointer;
+    margin-left: 700px;
+}
+
+.searchbutton {
+    background-color:#f1ededec;
+    width: 130px;
+    height: 35px;
+    color: rgb(106, 106, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    border-radius: 4px;
+    border: none;
+    margin: none;
+}
+
+.searchbutton:hover {
+    border: 1px solid var(--button-hover);
+    color: #222222;
+}
+
+footer {
+    position: absolute;
+    background-color: rgb(242, 242, 242);
+    width: 100%;
+    bottom: 0;
+    height: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-width: .5pt;
+    border-style: solid;
+    font-size: 13px;
+    
+}
+
+.footerleft {
+    float: left;
+    padding-left: 20px;
+    
+}
+
+.footerright {
+    float: right;
+    padding-right: 20px;
 }
